@@ -1,0 +1,179 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav{
+    
+    
+    background-color: rgb(238, 238, 238);
+    width: 100vw;
+    height: 5vh;
+    
+}
+
+.navbar-links{
+    padding-top: 5px;
+    width: 80vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.nav-item{
+    list-style: none;
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 5px;
+    
+}
+
+.nav-item > a{
+    text-decoration: none;
+    color: rgb(125, 194, 190);
+}
+
+.nav-item > a:hover{
+    color: rgb(125, 194, 190,0.5);
+}
+
+.container{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+.btn{
+    width: 25%;
+    height: 20%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.75rem;
+    font-weight: bold;
+    border: 4px solid #000;
+    transition:background-color 500ms linear;
+    cursor: pointer;
+    background-color:rgba(0, 0, 0, 0);
+}
+
+.btn:hover{
+    
+    background-color:rgba(0, 0, 0, .1);
+    color: #fff;
+   
+
+}
+
+h2{
+    margin-bottom: 20px;
+    font-size: 3.75rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, .7);
+    border-radius:5px;
+    color: #fff;
+    padding: 15px;;
+
+}
+
+.color{
+    color: rgb(94, 66, 255);
+}
+
+
+@media (max-width: 700px) {
+    nav{
+    
+    
+        background-color: rgb(238, 238, 238);
+        width: 100vw;
+        height: 6vh;
+        
+    }
+    
+    .navbar-links{
+        padding-top: 5px;
+        width: 80vw;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    
+    .nav-item{
+        list-style: none;
+        cursor: pointer;
+        font-size: 1.25rem;
+        font-weight: 600;
+        padding: 5px;
+        
+    }
+    
+    .nav-item > a{
+        text-decoration: none;
+        color: rgb(125, 194, 190);
+    }
+    
+    .nav-item > a:hover{
+        color: rgb(125, 194, 190,0.5);
+    }
+    
+    .container{
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 5%;
+        
+    }
+    
+    .btn{
+        width: 30vw;
+        height: 8vh;
+        border-radius: 5px;
+        font-size: 0.75rem;
+        font-family: 'Roboto';
+        font-weight: bold;
+        border: 4px solid #000;
+        transition:background-color 500ms linear;
+        cursor: pointer;
+        background-color:rgba(0, 0, 0, 0);
+    }
+    
+    .btn:hover{
+        
+        background-color:rgba(0, 0, 0, 0.219);
+        color: rgba(255, 255, 255, 0.534);
+       
+    
+    }
+    
+    h2{
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+        
+        font-weight: 600;
+        background-color: rgba(0, 0, 0, .7);
+        border-radius:5px;
+        color: #fff;
+        padding: 15px;;
+    
+    }
+    
+    .color{
+        color: rgb(94, 66, 255);
+    }
+    
+
+
+
+}
